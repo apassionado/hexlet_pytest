@@ -2,7 +2,7 @@ install:
 	poetry install
 
 lint:
-	poetry run flake8 example
+	poetry run flake8 hexlet_pytest
 
 build:
 	poetry build
